@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "12511000000007132",
+      "name": "Neo-UI",
+      "domain": {
+        "id": "50024472523",
+        "name": "neo-ui-60036342554.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60036342554",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
