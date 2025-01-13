@@ -1,0 +1,152 @@
+.sidebar3 {
+    width: 200px;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: white;
+    height: auto;
+    padding: 15px;
+    border: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.sidebar3 {
+    position: fixed;
+    top: 0;
+    left: -350px; 
+    width: 200px;
+    height: 100%;
+    background-color:rgb(24, 23, 23);
+    color: #fff;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease;
+}
+
+.sidebar3.show {
+   left: 0; 
+}
+.sidebar-nav3{
+    display: flex;
+}
+.sidebar-nav3 img{
+    height: 20px;
+    width: 20px;
+
+}
+
+button {
+    background-color: inherit; 
+     color: #fff;
+    border: none;
+    width: 30px;
+    cursor: pointer;
+}
+.sidebar3 h1 {
+    font-size: 9px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar3 ul {
+    list-style: none;
+    /* padding: 5px; */
+  }
+  .sidebar3 li{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .sidebar3 ul li {
+    position: relative;
+    top: 50px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 4PX;
+  }
+  
+.sidebar-header3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .sidebar-header3 img {
+    width: 30px; 
+    height: 30px;
+    border-radius: 5px;
+
+  }
+
+  
+  .sidebar-header3 h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin:0;
+  }
+
+  .sidebar3 h3 {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.sub-menu-wrap{
+  position: absolute;
+  top: 57%;
+  left: 19px;
+  width: 200px;
+  max-height: 0px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: max-height 0.01s ease;
+ 
+}
+.sub-menu-wrap.open-menu{
+  max-height: 400px;
+}
+
+
+.sub-menu{
+  background: rgb(40, 37, 37);
+  
+  padding: 10px;
+  margin: 0px;
+}
+.user-info{
+  display: grid;
+  align-items: center;
+  margin: -20px 0px;
+  
+
+
+}
+
+.user-info img{
+  position: relative;
+  top: 5px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 0px;
+  
+
+}
+.sub-menu hr{
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background:black;
+  margin: 0px -7px;
+}
+
+.two3{  
+    position: relative;
+    padding-top: 300px;
+}
+.two3 img{
+    position: relative;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+}
